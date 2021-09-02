@@ -1,0 +1,66 @@
+/*Body*/
+body {
+  /* background: url(../img/background.png);
+    background-size:100%;
+    background-position:center; */
+  background-color: #fbe7c6;
+  // background-color: rgba(245, 222, 179, 0.274);
+  font-family: "Lexend", sans-serif;
+}
+
+/*Secciones*/
+.seccion {
+  &__titulo {
+    justify-content: center;
+    &--bg {
+      margin-top: $margin-top/6;
+      margin-bottom: 20px;
+      background-color: transparent;
+      h2 {
+        text-shadow: $text-shadow-rosa;
+        color: $celeste-claro;
+        font-size: medium;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-family: $font-gamer;
+      }
+      h1 {
+        text-shadow: $text-shadow-rosa;
+        color: $rosado;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-family: $font-gamer;
+      }
+    }
+  }
+  &__card {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    box-shadow: 2px 5px 2px 5px #b4f8c8;
+    &--texto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &--btnvermas {
+      color: $azul-oscuro;
+      background-color: #ffa6f2;
+      border-color: #ffa6f2;
+    }
+    &--btncomprar {
+      color: #a10189;
+      background-color: $celeste-claro;
+      border-color: $celeste-claro;
+    }
+    &--img {
+      width: 90%;
+      margin: 1em auto 0 auto;
+      border-radius: 25%;
+      box-shadow: 2px 5px 2px 5px #ffaebc;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.faq {
+  &__img {
+    width: 20em;
+    margin: 1em auto 0 auto;
+    border-radius: 50%;
+    box-shadow: 2px 5px 2px 5px #b4f8c8;
+  }
+  &__seccion {
+    background-color: rgba(255, 255, 255, 0.658);
+    border-style: solid;
+    border-color: #ffaebc;
+    border-radius: 30px;
+    box-shadow: 5px 5px 2px 5px #b4f8c8;
+    margin-top: $margin-top/10;
+    padding-top: 30px;
+    &--titulo {
+      text-shadow: 1px 1px 2px black, 0 0 1em #ffaebc, 0 0 0.2em black;
+    }
+    &--lista li {
+      word-spacing: 1px;
+    }
+  }
+}

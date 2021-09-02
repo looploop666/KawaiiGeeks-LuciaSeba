@@ -1,0 +1,54 @@
+/*Navbar*/
+.navbar {
+  background: $bg-gradiente;
+  background: $gradiente;
+  font-family: $font-gamer;
+  &__brand {
+    text-shadow: $text-shadow-rosa;
+    color: $celeste-claro !important;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: $font-gamer, cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__item {
+    &--active {
+      color: $azul-oscuro !important;
+      font-weight: bold;
+    }
+    &--dropdownmenu {
+      background-color: rgba(255, 192, 203, 0.747);
+      color: rgba(0, 0, 0, 0.55);
+    }
+  }
+  &__center {
+    font-size: x-small;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3em;
+  }
+}
+
+/*Carousel*/
+.carousel {
+  &__contenedor {
+    width: 100%;
+    
+  }
+  &__item {
+    img {
+      background-color: black;
+    }
+    &--texto {
+      text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em black;
+      font-size: 35px;
+      h5 {
+        font-size: 30px;
+      }
+    }
+  }
+}
