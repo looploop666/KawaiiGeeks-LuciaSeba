@@ -214,6 +214,11 @@ body {
     flex-direction: column;
     margin: 0.5em; }
 
+.seccion__contacto--titulos {
+  color: #256892;
+  font-size: 1rem;
+  font-weight: bolder; }
+
 .faq__img {
   width: 20em;
   margin: 1em auto 0 auto;

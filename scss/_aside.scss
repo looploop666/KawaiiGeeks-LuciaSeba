@@ -3,16 +3,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  &__derecho {
-    &--item {
-      // padding-left: 3em;
-    }
-  }
-  &__izquierdo {
-    &--item {
-      // margin: 3em;
-    }
-  }
 }
 
 @for $i from 1 through 3 {
